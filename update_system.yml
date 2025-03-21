@@ -1,6 +1,6 @@
 ---
 - name: Update System Packages
-  hosts: all
+  hosts: Slave_Node
   become: yes
   tasks:
     - name: Update package lists
